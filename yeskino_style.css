@@ -21,6 +21,14 @@ html {
     background-color: #F0DFDA; /*#BD9BC5;*/
 }
 
+.top-notice {
+    margin: auto;
+    font-size: 90px;
+    color: red;
+    margin-bottom: 30%;
+    background: white;
+}
+
 /* positioning: */
 
 #main-image-heading {
@@ -33,10 +41,12 @@ header {
     margin-bottom: -60%;
 }
 
-.header-submit-btn {
+.across-logo {
     width: fit-content;
+    height: fit-content;
     display: block;
-    margin: -90% auto 90%; /*moves btn into the picture but does not move content below header*/
+    margin: -90% auto 75%; /*moves btn into the picture but does not move content below header*/
+    text-align: center;
 }
 
 body {
