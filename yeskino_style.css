@@ -1,0 +1,107 @@
+
+html {
+  font-family: "Paytone One", sans-serif, Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 35px;
+  color: black; /* #842805; */
+}
+
+p {
+}
+
+strong {
+    color: #B94E70;
+}
+
+html {
+    background-color: #F0DFDA; /*#BD9BC5;*/
+}
+
+/* positioning: */
+
+#main-image-heading {
+    width: 100%;
+    position: relative;
+    z-index: -2;
+}
+
+header {
+    margin-bottom: -60%;
+}
+
+.header-submit-btn {
+    width: fit-content;
+    display: block;
+    margin: -90% auto 90%; /*moves btn into the picture but does not move content below header*/
+}
+
+body {
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+main {
+    padding: 2em;
+    margin-bottom: 6em;
+}
+
+h1 {
+    margin: 0;
+}
+h2 {
+    text-align: center;
+    max-width: 1400px;
+    margin: auto;
+    font-size: 50px;
+    margin-bottom: 1.8em;
+}
+
+.main-nav {
+    margin-bottom: 3em;
+}
+
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* buttons */
+
+.header-submit-btn {
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: #B94E70;
+    color: white;
+    border: 0.08em solid white;
+    font-size: 0.7em;
+    padding: 0.2em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+}
+
+.nav-button {
+    margin-top: 0.12em;
+}
+
+button:hover {
+    background-color: white;
+    color: #B94E70;
+}
+
+.nav-item {
+    margin: 0.2em;
+}
+
+button > a {
+    color: inherit;
+    text-decoration: inherit;
+}
