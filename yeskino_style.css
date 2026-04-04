@@ -21,12 +21,18 @@ html {
     background-color: #F0DFDA; /*#BD9BC5;*/
 }
 
-.top-notice {
+.top-notice-urgent {
     margin: auto;
     font-size: 90px;
     color: red;
     margin-bottom: 30%;
     background: white;
+}
+
+.top-notice {
+    margin: auto;
+    font-size: 90px;
+    margin-bottom: 10%;
 }
 
 /* positioning: */
@@ -86,6 +92,11 @@ h2 {
 
 .header-submit-btn {
     font-size: 1.5rem;
+}
+
+.disabled-button {
+  pointer-events: none;
+  opacity: 0.6;
 }
 
 button {
