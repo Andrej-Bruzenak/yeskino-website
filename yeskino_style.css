@@ -12,11 +12,19 @@ html {
 
 p.intro {
     font-size: 175%;
+    text-align: center;
+}
+p {
+    text-align: justify;
+    margin-top: 0;
 }
 h1 {
 }
 h2 {
     font-size: 250%;
+}
+h3 {
+    font-size: 150%;
 }
 
 .top-notice-urgent {
@@ -30,11 +38,12 @@ h2 {
 
 :root {
     --decent-cherry: #B94E70;
+    --strong-cherry: #9E133A;
     --background-beige: #F0DFDA; /*#BD9BC5;*/
     --font-default: black;
     --contrast-font: white;
     --strong-font: var(--decent-cherry);
-    --urgent-font: red;
+    --urgent-font: #E60043;
     --contrast-background: var(--decent-cherry);
 }
 
@@ -71,6 +80,7 @@ header {
 
 .across-logo {
     width: fit-content;
+    max-width: 80%;
     height: fit-content;
     display: block;
     margin: -90% auto 75%; /*moves btn into the picture but does not move content below header*/
@@ -84,7 +94,7 @@ body {
 
 
 main {
-    padding: 2em;
+    padding: 10%;
     margin-bottom: 6em;
 }
 
@@ -97,16 +107,36 @@ h2 {
     margin: auto;
     margin-bottom: 1.8em;
 }
+h3 {
+    margin-top: 0;
+}
 
 .main-nav {
     margin-bottom: 3em;
 }
 
-.main-nav {
+.default-flex {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+}
+
+.person-bio {
+    border: 2px solid var(--decent-cherry);
+    padding: 1em;
+    margin-bottom: 4em;
+    max-width: 90%;
+}
+.person-photo {
+    margin-top: 0;
+    margin-bottom: auto;
+}
+.bio-textblock {
+    margin: 1.3em;
+    margin-top: 0;
+    margin-bottom: auto;
+    max-width: 70%;
 }
 
 /* buttons */
@@ -120,6 +150,19 @@ h2 {
   opacity: 0.6;
 }
 
+a.a-contrast {
+    color: var(--strong-cherry);
+}
+a {
+    color: var(--decent-cherry);
+}
+a:hover, a:focus {
+    color: var(--urgent-font);
+}
+a:active {
+    color: var(--contrast-font);
+}
+
 button {
     background-color: var(--decent-cherry);
     color: var(--contrast-font);
@@ -128,9 +171,6 @@ button {
     padding: 0.2em;
     padding-left: 0.6em;
     padding-right: 0.6em;
-}
-
-.button-anchor {
 }
 
 .nav-button {
