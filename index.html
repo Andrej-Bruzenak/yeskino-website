@@ -6,7 +6,7 @@
     <meta name="author" content="Andrej Bružeňák"/>
 
     <link rel="stylesheet", href="yeskino_style.css">
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
 
     <!-- add to calendar button from
     https://www.addevent.com/c/documentation/add-to-calendar-button -->
@@ -18,28 +18,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
 
   </head>
+
+
   <body>
     <header>
       <h1>
         <img
           id="main-image-heading"
-          src="logo-kamen-invert.jpg"
-          alt="Yes Kino!">
+          src="./img/logo-kamen-invert.jpg"
+          alt="A large picture of a pink, smooth object, the logo of Yeskino, slightly rounded but not spherical, with orange-ish and purple holes in the surface. It might be a special kind of stone or maybe a type of sweet when seen from very close by. Across it, there is a white rectangle with black letters spelling Yeskino, using pixel art and other graphical play.">
       </h1>
       <div class="across-logo">
-          <figure class="top-notice">Open call ended, artwork selection in progress.</figure>
-          <button class="header-submit-btn disabled-button"><a class="button-ancor" href="https://forms.gle/p9nUonT83SiKTJ6e8">Submit your work!</a></button>
+          <figure class="top-notice">Open call ended, <a class="a-contrast" href="#juryintro">the jury</a> is selecting artworks for the projection.</figure>
+          <button class="header-submit-btn disabled-button"><a href="https://forms.gle/p9nUonT83SiKTJ6e8">Submit your work!</a></button>
       </div>
     </header>
+
     <main>
-
       <h2>Mezinárodní studentský videoartový festival YESKINO vyhlašuje <strong>open call</strong> pro rok 2026.</h2>
-      <p>Přihlašte se zde do <time datetime="2026-03-29">29. 3. 2026</time>. Projekce vybraných filmů se uskuteční <time datetime="2026-03-20">20. dubna 2026</time> v kině Art v Brně.</p>
+      <p class="intro">Přihlašte se zde do <time datetime="2026-03-29">29. 3. 2026</time>. Projekce vybraných filmů se uskuteční <time datetime="2026-03-20">20. dubna 2026</time> v kině Art v Brně. <a download href="./download/yeskino-rules.pdf">pravidla účasti</a></p>
       <h2>International student video art festival YES KINO anounce <strong>open call</strong> for the year 2026.</h2>
-      <p>Submit your work here untill <time datetime="2026-03-29">29th March 2026.</time> Projection of chosen films will take place in the cinema Art in Brno on <time datetime="2026-04-20">Monday 20th April 2026</time>.</p>
+      <p class="intro">Submit your work here untill <time datetime="2026-03-29">29th March 2026.</time> Projection of chosen films will take place in the cinema Art in Brno on <time datetime="2026-04-20">Monday 20th April 2026</time>. <a download href="./download/yeskino-rules.pdf">festival rules</a></p></p>
 
-
-      <nav class="main-nav">
+      <nav class="main-nav default-flex">
         <div class="nav-item">
           <div title="Open call deadline" class="addeventatc">
             Open call deadline to calendar
@@ -53,7 +54,7 @@
         </div>
 
         <div class="nav-item">
-          <button class="nav-button disabled-button"><a class="button-ancor" href="https://forms.gle/p9nUonT83SiKTJ6e8">Submit your work!</a></button>
+          <button class="nav-button disabled-button"><a href="https://forms.gle/p9nUonT83SiKTJ6e8">Submit your work!</a></button>
         </div>
 
         <div class="nav-item">
@@ -75,6 +76,77 @@
         </div>
       </nav>
 
+      <article id="juryintro">
+
+        <h2>Introduction of the jury<br>Představení poroty</h2>
+
+        <div class="default-flex">
+          <div class="person-bio">
+            <h3>Jana P. Francová</h3>
+            <div class="default-flex">
+              <img
+                class="person-photo"
+                src="img/j-p-francova.png"
+                alt="A photo of Jana P. Francová." />
+              <div class="bio-textblock">
+                <p><strong>English</strong></p>
+
+                <p>Jana P. Francová is the founder and organizer of the Yes kino festival, which was held for 10 years under its original name, Scalní video, at the Scala University Cinema. Over the past three years, the festival has become international thanks to the participation of art colleges from Slovakia, Hungary, Poland, and other countries. Jana Francová’s deep interest in the moving image is also reflected in her curatorial work for the Umakart Gallery and the international group Videocity. Her theoretical work is reflected in the book *Navigator: An Introduction to New Media Art*.</p>
+                <p>In her artistic practice, she creates installations, performances, videos, and video mappings, adopting an intermedia approach. During her studies at the Faculty of Fine Arts at Brno University of Technology (Keiko Sei’s studio), she focused primarily on video installations, specifically the relationship between video and space. She is interested in the potential of connecting audiovisual media and space through site-specific projects, particularly video mapping projections or interactive installations.  She frequently collaborates with musicians and explores the intersection of new media with performance, combining projection with musical composition and movement.</p>
+                <p>In addition to curating, she always prepares an original live event for the Yes Kino festival in conjunction with a screening. This year, it will be the performance Gender Swap with Šimon Kříž. // <a href="https://vimeo.com/user42698567">Vimeo</a></p>
+
+                <p><strong>Čeština</strong></p>
+
+                <p>Je zakladatelkou a organizátorkou festivalu Yes kino, který byl pod původním názvem Scalní video 10 let prezentován v univerzitním kině Scala. Poslední tři roky se festival stal mezinárodním díky účasti vysokých uměleckých škol ze Slovenska, Madarska, Polska a dalších zemí. Hluboký zájem Jany Francové o pohyblivý obraz se odráží také v její kurátorské činnosti pro galerii Umakart a mezinárodní uskupení Videocity. Její teoretická práce se promítla do knihy Navigátor úvod do umění nových médií.</p>
+
+                <p>Ve své umělecké tvorbě je autorkou instalací, performancí, videí a videomappingů, kde zaujímá intermediální přístup. Na studiích na brněnské Fakultě výtvarných umění VUT (ateliér Keiko Sei) se věnovala hlavně videoinstalacím, tedy vztahem videa k prostoru. Zajímá ji potenciál propojení audiovize a prostoru prostřednictvím site specific projektů, zejména videomappingových projekcí nebo interaktivním instalacím. Často spolupracuje s hudebníky a zkoumá přesahy nových médií do performance, které kombinují projekci s hudební kompozicí a pohybem.</p>
+
+                <p>Kromě dramaturgie si pro festival Yes kino připravuje vždy originální živou událost spojenou s projekcí. Letos to bude performance Gender Swap s Šimonem Křížem. // <a href="https://vimeo.com/user42698567">Vimeo</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="person-bio">
+            <h3>Marc Tobias Winterhagen</h3>
+            <div class="default-flex">
+              <img
+                class="person-photo"
+                src="img/m-t-winterhagen.jpg"
+                alt="A photo of Marc Tobias Winterhagen." />
+              <div class="bio-textblock">
+
+                <p><strong>English</strong></p>
+
+                <p>Artist, filmmaker and film theorist. Author of numerous short and experimental films as well as multimedia and kinetic works. Assistant professor at the Abakanowicz University of the Arts in Poznań. Participant of numerous individual and group exhibitions, e.g. at the Centre for Contemporary Art Ujazdowski Castle in Warsaw, the National Museum in Poznań and film festivals, e.g. in London, Melbourne, Munich and Hawaii. Winner of more than 20 film and art awards, including Samsung Art Master, Brno16 and Worldfest Houston. Works and lives in Poznań. // <a href="vimeo.com/4bluehorses">Vimeo</a></p>
+
+                <p><strong>Čeština</strong></p>
+
+                <p>Umělec, filmař a filmový teoretik. Autor řady krátkých a experimentálních filmů, jakož i multimediálních a kinetických děl. Docent na Umělecké univerzitě Abakanowicz v Poznani. Účastník četných samostatných i skupinových výstav, např. v Centru současného umění na Ujazdowském zámku ve Varšavě, v Národním muzeu v Poznani, a na filmových festivalech, např. v Londýně, Melbourne, Mnichově a na Havaji. Držitel více než 20 filmových a uměleckých ocenění, včetně Samsung Art Master, Brno16 a Worldfest Houston. Žije a pracuje v Poznani. // <a href="vimeo.com/4bluehorses">Vimeo</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="person-bio">
+            <h3>Michal Kobza</h3>
+            <div class="default-flex">
+              <img
+                class="person-photo"
+                src="img/m-kobza.png"
+                alt="A photo of Michal Kobza." />
+              <div class="bio-textblock">
+
+                <p><strong>English</strong></p>
+
+                <p>is an intermedia artist, instructor, and cultural and educational producer at AV HUB Brno. In his work, he combines collectivity and community care as a counterbalance to the pitfalls of external influences and oppression that lead to exhaustion. In his teaching, he works in the fields of art education, film, and media, where he combines an analytical approach to audiovisual media with support for creative work. He is interested in contemporary experimental forms of the moving image, video art, and their educational potential. In addition to his teaching activities, he participates in cultural and community projects of the queer collective Plusko+. He also curates the Filmový Kvír Klubík and leads audiovisual and animation courses at Studio Scala. He has long contributed to the development of film and audiovisual education.</p>
+
+                <p><strong>Čeština</strong></p>
+
+                <p>Michal Kobza je intermediální umělec, lektor a kulturně-vzdělávací produkční v AV HUB Brno. Autor ve své tvorbě spojuje kolektivnost a komunitní péči oproti nástrahám vnějších vlivů a útlaků vedoucích k vyčerpání. V pedagogické práci působí v oblasti výtvarné výchovy, filmu a médií, kde propojuje analytický přístup k audiovizi s podporou autorské tvorby. Zajímá se o současné experimentální formy pohyblivého obrazu, videoartu a jejich vzdělávacího potenciálu. Vedle pedagogické činnosti se podílí na kulturních a komunitních projektech queer kolektivu Plusko+. Dále kurátoruje Filmový Kvír Klubík a vede audiovizuální a animační kurzy ve Studiu Scala. Dlouhodobě přispívá k rozvoji filmové a audiovizuální výchovy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
     </main>
   </body>
 </html>
