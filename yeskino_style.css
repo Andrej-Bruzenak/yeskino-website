@@ -112,7 +112,8 @@ h3 {
 }
 
 .main-nav {
-    margin-bottom: 3em;
+    margin-top: 7em;
+    margin-bottom: 6em;
 }
 
 .default-flex {
@@ -136,7 +137,7 @@ h3 {
     margin: 1.3em;
     margin-top: 0;
     margin-bottom: auto;
-    max-width: 70%;
+    max-width: 32em;
 }
 
 /* buttons */
