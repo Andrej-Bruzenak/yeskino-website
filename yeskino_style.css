@@ -108,12 +108,15 @@ h2 {
     margin-bottom: 1.8em;
 }
 h3 {
-    margin-top: 0;
+    margin-top: 0.7rem;
+    margin-left: 0.7rem;
 }
 
 .main-nav {
-    margin-top: 7em;
-    margin-bottom: 6em;
+    border-top: 20px solid --var(decent-cherry);
+    border-bottom: 2px solid --var(decent-cherry);
+    margin-top: 4em;
+    margin-bottom: 8em;
 }
 
 .default-flex {
@@ -124,17 +127,21 @@ h3 {
 }
 
 .person-bio {
+    padding: 0.3rem;
     border: 2px solid var(--decent-cherry);
-    padding: 1em;
     margin-bottom: 4em;
     max-width: 90%;
 }
 .person-photo {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
     margin-top: 0;
     margin-bottom: auto;
 }
 .bio-textblock {
-    margin: 1.3em;
+    margin: 0;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
     margin-top: 0;
     margin-bottom: auto;
     max-width: 32em;
@@ -186,6 +193,8 @@ button:hover {
 .nav-item {
     font-size: 200%;
     margin: 0.2em;
+    margin-left: 1em;
+    right: 1em;
 }
 
 button > a {
